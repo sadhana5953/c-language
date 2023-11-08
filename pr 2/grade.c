@@ -15,18 +15,18 @@ main()
 	}
 	else if(per<80&&per>=70)
 	{
-		printf("Grade-B");
+		printf("Grade-C");
 	}
 	else if(per<70&&per>=60)
 	{
-		printf("Grade-B");
+		printf("Grade-D");
 	}
 	else if(per<60&&per>=50)
 	{
-		printf("Grade-B");
+		printf("Grade-E");
 	}
 	else if(per<50&&per>=40)
 	{
-		printf("Grade-B");
+		printf("Grade-F");
 	}
 }
