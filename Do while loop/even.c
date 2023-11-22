@@ -8,7 +8,8 @@ main()
     scanf("%d",&n);
     do
     {
-        printf("%d ",n);
-        n-=2;
+        if(n%2==0)
+        {
+            printf("%d ",n);
+        }
     } while (n>=1);
-}
