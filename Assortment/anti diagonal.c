@@ -17,8 +17,8 @@ main()
 		scanf("%d",&a[i][j]);
 	}
 	}
-	j=2;
-	for(i=0;i<3;i++)
+	j=y-1;
+	for(i=0;i<x;i++)
 	{
 		sum=sum+a[i][j];
 		j--;
