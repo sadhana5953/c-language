@@ -1,7 +1,6 @@
 #include<stdio.h>
 main()
 {
-	//1. WAP to get the array and count & remove all duplicate values in the array.
 	int n,x;
 	printf("enter the size of array:");
 	scanf("%d",&n);
