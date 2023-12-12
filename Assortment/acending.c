@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	//2. WAP to get the array and print in descending order.
+	//2. WAP to get the array and print in acending order.
 	int n,x;
 	printf("enter the size of array:");
 	scanf("%d",&n);
