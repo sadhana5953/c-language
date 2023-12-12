@@ -1,7 +1,6 @@
 #include<stdio.h>
 main()
 {
-	//6. Write a program in C to find a pair of target value given by user.
 	int n,x;
 	printf("enter the size of array:");
 	scanf("%d",&n);
