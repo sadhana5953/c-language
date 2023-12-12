@@ -1,8 +1,6 @@
 #include<stdio.h>
 main()
 {
-	//4. Write a program to get two array and create addition of array position wise.
-	// ex: A= 1,2,3 B=5,6,7 answer = 6,8,10
 	int n,x;
 	printf("enter the size of array:");
 	scanf("%d",&n);
