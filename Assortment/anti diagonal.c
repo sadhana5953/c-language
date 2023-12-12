@@ -1,7 +1,6 @@
 #include<stdio.h>
 main()
 {
-	//9. Wap to find sum of diagonal element in 2d array.
 	int x,y,sum=0;
 	printf("enter the size of array:");
 	scanf("%d",&x);
