@@ -61,12 +61,28 @@ main()
 				if(a[j]==b[x])
 				{
 					check++;
+					a[j]=0;
 				}
 				x++;
 			}
 			if(check==10)
 			{
-				printf("your gmail-id created successfully .");
+				for(i=0;i<length;i++)
+				{
+					if(a[i]>=65&&a[i]<=90||a[i]>=97&&a[i]<=122)
+	{
+		check=1;
+	}
+				}
+				if(check==1)
+				{
+					printf("your gmail-id created successfully.");
+				}
+				else
+				{
+					printf("error : enter your name !\n\n");
+					goto s;
+				}
 			}
 			else
 			{
@@ -97,4 +113,5 @@ main()
 		printf("error : all character should be small !\n\n");
 		goto s;
 	}
+	
 }
