@@ -24,7 +24,7 @@ main()
 	{
 		printf("enter the detail of %d student:\n",i+1);
 		printf("enter name :");
-		scanf("%s",&s[i].name);
+		scanf(" %[^\n]s",&s[i].name);
 		printf("enter id :");
 		scanf("%d",&s[i].id);
 		printf("enter age :");
@@ -32,24 +32,24 @@ main()
 		printf("enter standard :");
 		scanf("%d",&s[i].standard);
 		printf("enter course :");
-		scanf("%s",&s[i].course);
+		scanf(" %[^\n]s",&s[i].course);
 		printf("enter city :");
-		scanf("%s",&s[i].city);
+		scanf(" %[^\n]s",&s[i].city);
 		printf("enter school :");
-		scanf("%s",&s[i].school);
+		scanf(" %[^\n]s",&s[i].school);
 		printf("\n");
 	}
 	
 	for(i=0;i<3;i++)
 	{
-		printf("the %d student detail given below :",i+1);
-		printf("\n\nstudent name is : %s\n",s[i].name);
-		printf("student id is : %d\n",s[i].id);
-		printf("student age is : %d\n",s[i].age);
-		printf("student standard is : %d\n",s[i].standard);
-		printf("student course is : %s\n",s[i].course);
-		printf("student city is : %s\n",s[i].city);
-		printf("student school is : %s\n\n",s[i].school);
+		printf("student no : %d",i+1);
+		printf("\n\nName : %s\n",s[i].name);
+		printf("Id: %d\n",s[i].id);
+		printf("Age : %d\n",s[i].age);
+		printf("Standard : %d\n",s[i].standard);
+		printf("Course : %s\n",s[i].course);
+		printf("City : %s\n",s[i].city);
+		printf("School Name : %s\n\n",s[i].school);
 	}
 	
 }
